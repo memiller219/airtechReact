@@ -1,24 +1,47 @@
 // Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
 
 // Variables
-$primary-font: 'Montserrat', sans-serif;
-
-
-
+$primary-font: "Montserrat", sans-serif;
 
 .homepage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url("../../assets/images/sands.JPG");
+    url("../../assets/images/sands.JPG");
   background-size: cover;
   font-family: $primary-font;
-  color: white;
+  color: #dfdfdf;
+
   height: 100vh;
   width: 100vw;
   display: grid;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
   .banner {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+  }
+
+  .brand {
+    font-size: 5rem;
+    font-weight: 200;
+    color: #fff;
+    text-shadow: 1px 1px 6px rgb(117, 117, 117);
+  }
+
+  .tech {
+    font-weight: 400;
+    color: rgb(168, 168, 168);
+    text-shadow: 1px 1px 6px rgb(117, 117, 117);
+    letter-spacing: -2px;
+  }
+
+  .heat {
+    letter-spacing: 8px;
+    word-spacing: 8px;
+    color: #fff;
+    font-size: 2rem;
   }
 }
