@@ -1,0 +1,24 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+// Variables
+$primary-font: 'Montserrat', sans-serif;
+
+
+
+
+.homepage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url("../../assets/images/sands.JPG");
+  background-size: cover;
+  font-family: $primary-font;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  .banner {
+  }
+}
