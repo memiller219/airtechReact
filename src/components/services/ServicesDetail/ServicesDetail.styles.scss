@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: rgb(238, 238, 238);
+  box-shadow: 1px 1px 4px rgb(105 105 105);
+  padding: 20px;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+
+  .description {
+    border-bottom: 1px solid navy;
+    margin: auto;
+    text-transform: uppercase;
+  }
+
+  .information {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+
