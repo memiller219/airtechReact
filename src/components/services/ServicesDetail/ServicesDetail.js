@@ -6,7 +6,7 @@ const ServicesDetail = (props) => {
     <div className="container">
       <div className="icon">{props.children}</div>
       <div className="description">{props.description}</div>
-      <div className="information">MORE INFO</div>
+      <div className="information">{props.info}</div>
     </div>
   );
 };
