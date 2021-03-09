@@ -1,6 +1,7 @@
 import React from "react";
 import Homepage from "./components/homepage/homepage";
 import ServiceSection from "./components/services/ServicesSection/ServicesSection";
+import Quality from './components/quality/Quality'
 
 class App extends React.Component {
   render() {
@@ -8,6 +9,7 @@ class App extends React.Component {
       <>
         <Homepage />
         <ServiceSection />
+        <Quality />
       </>
     );
   }
