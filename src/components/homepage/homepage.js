@@ -1,9 +1,11 @@
 import React from "react";
 import "./homepage.styles.scss";
+import Toolbar from '../navigation/Toolbar/Toolbar';
 
 const Homepage = (props) => {
   return (
     <div className="homepage">
+        <Toolbar />
       <div className="banner">
         Welcome to <br />
         <span className="brand">

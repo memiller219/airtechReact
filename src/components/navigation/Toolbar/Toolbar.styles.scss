@@ -1,0 +1,27 @@
+.Toolbar {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+
+  & a {
+    text-decoration: none;
+    color: white;
+    margin-inline-end: auto;
+  }
+
+  nav {
+    justify-self: end;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 960px) {
+    grid-template-columns: 1fr 2fr;
+  }
+}

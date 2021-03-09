@@ -1,0 +1,41 @@
+.NavigationItems {
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  align-items: center;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    height: 100%;
+    padding: 16px 10px;
+  
+    box-sizing: border-box;
+    display: block;
+
+    &:hover,
+    &:active {
+      font-weight: bolder;
+    }
+
+    @media screen and (max-width: 960px) {
+      display: none;
+    }
+  }
+
+  .MenuIcon {
+    color: white;
+    display: none;
+
+    @media screen and (max-width: 960px) {
+      display: block;
+      position: absolute;
+      top: -10px;
+      transform: translate(-100%, 60%);
+      font-size: 1.4rem;
+      cursor: pointer;
+    }
+  }
+}
